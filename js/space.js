@@ -1,6 +1,6 @@
 const input = document.getElementById("inputBuscar");
 const btn = document.getElementById("btnBuscar");
-const container = document.getElementById("contenedor")
+const container = document.getElementById("contenedor");
 
 btn.addEventListener("click", function () {
 
