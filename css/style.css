@@ -1,3 +1,39 @@
 main {
     min-height: calc(100vh - 160px);
+    background-color: rgba(154, 112, 194, 0.617);
+  }
+
+  div.mb-3 {
+    width: 60%;
+     
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    box-sizing: border-box; 
+    transition: 0.5s;
+  }
+  .mb-3:hover {
+    width: 65%;
+    transition: 0.5s;
+  }
+  div.container {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #btnBuscar {
+    background-color: rgb(47, 6, 96);
+    cursor: pointer;
+  }
+
+  #inputBuscar {
+    background-color: transparent;
+    border-color: rgb(47, 6, 96);
+  }
+
+  h1 {
+    font-weight: bold;
+    padding: 30px;
   }
